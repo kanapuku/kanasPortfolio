@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <mate charset="viewport" content="width=device-width,initial-scale">
+  <title>Contact | PETALA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</mate>
+
+
+<body id="contact">
+  <!--header 始まり-->
+  <header>
+    <div class="logo">
+      <div class="logo-com">PETALA</div>
+    </div>
+     <nav>
+      <ul class="global-nav"> 
+        <li><a href="PORTFOLIO.html">TOP</a></li>
+        <li><a href="ABOUT.html">ABOUT</a></li>
+         <li><a href="CONTACT.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--header 終わり-->
+
+  <!--wrap 始まり-->
+  <div id="wrap">
+    <div class="content">
+     <div class="main-center">
+       <h1>Contact</h1>
+       <p>KKR Studioへのお問い合わせ、お仕事のご依頼フォームのページです。お気軽にお問い合わせください。</p>
+       <section>
+         <h1 class="icon">Contact Form</h1>
+         <div class="form">
+          <form>
+          <dl>
+            <dt><span class="required">お名前</span></dt>
+            <dd><input type="text" name="name" class="name" required></dd>
+            <dt><span class="required">メールアドレス</span></dt>
+            <dd><input type="email" name="email" class="email" required></dd>
+            <dt>お電話番号</dt>
+            <dd><input type="tel" name="tel" class="tel"></dd>
+            <dt>お問い合わせ種別</dt>
+            <dd>
+              <select name="typw" class="type">
+                <option value="お仕事のご依頼">お仕事のご依頼</option>
+                <option value="その他のお問い合わせ">その他のお問い合わせ</option>
+              </select>
+            </dd>
+            <dt>ご希望の連絡先</dt>
+            <dd>
+              <input type="radio" name="contact" value="Eメール">email
+              <input type="radio" name="contact" value="お電話">お電話
+            </dd>
+            <dt>メッセージ</dt>
+            <dd><textarea name="message" class="message"></textarea></dd>
+          </dl>
+          <button type="submit" class="btn">送信</button>
+        </form>
+        <div class="attention">
+          <p>※「<span class="required"></span>」の付いてる項目は必須項目です。</p>
+        </div>
+         </div>
+       </section>
+     </div>
+     </div>
+  </div>
+  <!--wrap 終わり-->
+
+   <!--footer 始まり-->
+   <footer>
+     <small>(C) KKR Studio</small>
+   </footer>
+
+  </body>
+</head>
+</html>
